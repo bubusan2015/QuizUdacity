@@ -43,5 +43,6 @@
     <string name="q7_a2">Drinks</string>
     <string name="q7_a3">Computers</string>
     <string name="q7_a4">Bikes</string>
+    <string name="todo">TODO</string>
 
 </resources>
