@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_low"
+    >
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:src="@drawable/header3"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/general_knowledge"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/question_text_size"
+            android:textColor="@android:color/background_dark"
+            android:alpha="0.8"
+            android:background="@color/colorPrimary"
+            android:padding="@dimen/default_margin"
+
+            />
+    </RelativeLayout>
+        <android.support.v7.widget.CardView
+            style="@style/cadru"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    style="@style/question"
+                    android:padding="@dimen/default_margin"
+                    android:text="@string/q1"
+                    />
+                <RadioGroup
+                    android:id="@+id/q1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/default_margin">
+                    <RadioButton
+                        android:id="@+id/q1_a1"
+                        style="@style/answer"
+                        android:text="@string/q1_a1"
+                        />
+                    <RadioButton
+                        android:id="@+id/q1_a2"
+                        style="@style/answer"
+                        android:text="@string/q1_a2"
+
+                        />
+                    <RadioButton
+                        android:id="@+id/q1_a3"
+                        style="@style/answer"
+                        android:text="@string/q1_a3"
+                        />
+                    <RadioButton
+                        android:id="@+id/q1_a4"
+                        style="@style/answer"
+                        android:text="@string/q1_a4"
+                    />
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView style="@style/cadru" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    style="@style/question"
+                    android:padding="@dimen/default_margin"
+                    android:text="@string/q2"
+                    />
+                <RadioGroup
+                    android:id="@+id/q2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/default_margin">
+                    <RadioButton
+                        android:id="@+id/q2_a1"
+                        style="@style/answer"
+                        android:text="@string/q2_a1"
+                        />
+                    <RadioButton
+                        android:id="@+id/q2_a2"
+                        style="@style/answer"
+                        android:text="@string/q2_a2"
+
+                        />
+                    <RadioButton
+                        android:id="@+id/q2_a3"
+                        style="@style/answer"
+                        android:text="@string/q2_a3"
+                        />
+                    <RadioButton
+                        android:id="@+id/q2_a4"
+                        style="@style/answer"
+                        android:text="@string/q2_a4"
+                    />
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView style="@style/cadru" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    style="@style/question"
+                    android:padding="@dimen/default_margin"
+                    android:text="@string/q3"
+                    />
+                <EditText
+                        android:id="@+id/q3_a1"
+                        style="@style/answer"
+                        android:hint="@string/City"
+                        android:maxLength="4"
+                        android:inputType="textCapWords"
+                        android:layout_marginTop="@dimen/one_element_top_down_margin"
+                        android:layout_marginBottom="@dimen/one_element_top_down_margin"
+                        />
+               </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            style="@style/cadru"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    style="@style/question"
+                    android:padding="@dimen/default_margin"
+                    android:text="@string/q4"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/default_margin"
+                    android:orientation="vertical"
+                    >
+
+                    <CheckBox
+                        android:id="@+id/q4_a1"
+                        style="@style/answer"
+                        android:text="@string/q4_a1"
+                        />
+                    <CheckBox
+                        android:id="@+id/q4_a2"
+                        style="@style/answer"
+                        android:text="@string/q4_a2"
+
+                        />
+                    <CheckBox
+                        android:id="@+id/q4_a3"
+                        style="@style/answer"
+                        android:text="@string/q4_a3"
+                        />
+                    <CheckBox
+                        android:id="@+id/q4_a4"
+                        style="@style/answer"
+                        android:text="@string/q4_a4"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView style="@style/cadru" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    style="@style/question"
+                    android:padding="@dimen/default_margin"
+                    android:text="@string/q5"
+                    />
+                <RadioGroup
+                    android:id="@+id/q5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/default_margin">
+                    <RadioButton
+                        android:id="@+id/q5_a1"
+                        style="@style/answer"
+                        android:text="@string/q5_a1"
+                        />
+                    <RadioButton
+                        android:id="@+id/q5_a2"
+                        style="@style/answer"
+                        android:text="@string/q5_a2"
+
+                        />
+                    <RadioButton
+                        android:id="@+id/q5_a3"
+                        style="@style/answer"
+                        android:text="@string/q5_a3"
+                        />
+                    <RadioButton
+                        android:id="@+id/q5_a4"
+                        style="@style/answer"
+                        android:text="@string/q5_a4"
+                        />
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView style="@style/cadru" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    style="@style/question"
+                    android:padding="@dimen/default_margin"
+                    android:text="@string/q6"
+                    />
+                <RadioGroup
+                    android:id="@+id/q6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/default_margin">
+                    <RadioButton
+                        android:id="@+id/q6_a1"
+                        style="@style/answer"
+                        android:text="@string/q6_a1"
+                        />
+                    <RadioButton
+                        android:id="@+id/q6_a2"
+                        style="@style/answer"
+                        android:text="@string/q6_a2"
+
+                        />
+                    <RadioButton
+                        android:id="@+id/q6_a3"
+                        style="@style/answer"
+                        android:text="@string/q6_a3"
+                        />
+                    <RadioButton
+                        android:id="@+id/q6_a4"
+                        style="@style/answer"
+                        android:text="@string/q6_a4"
+                        />
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView style="@style/cadru" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <TextView
+                    style="@style/question"
+                    android:padding="@dimen/default_margin"
+                    android:text="@string/q7"
+                    />
+                <RadioGroup
+                    android:id="@+id/q7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/default_margin">
+                    <RadioButton
+                        android:id="@+id/q7_a1"
+                        style="@style/answer"
+                        android:text="@string/q7_a1"
+                        />
+                    <RadioButton
+                        android:id="@+id/q7_a2"
+                        style="@style/answer"
+                        android:text="@string/q7_a2"
+
+                        />
+                    <RadioButton
+                        android:id="@+id/q7_a3"
+                        style="@style/answer"
+                        android:text="@string/q7_a3"
+                        />
+                    <RadioButton
+                        android:id="@+id/q7_a4"
+                        style="@style/answer"
+                        android:text="@string/q7_a4"
+                        />
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/button_background_color"
+            android:textColor="@color/button_text_color"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin"
+            android:text="@string/submit"
+
+            />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/button_background_color"
+            android:textColor="@color/button_text_color"
+            android:layout_margin="@dimen/default_margin"
+            android:text="@string/reset" />
+
+
+    </LinearLayout>
+</ScrollView>

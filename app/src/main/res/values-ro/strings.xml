@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources  xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">QuizUdacity</string>
+    <string name="general_knowledge">TEST CULTURA GENERALA</string>
+    <string name="submit">Transmite</string>
+    <string name="reset">Resetare</string>
+    <string name="result">Scorul este de <xliff:g id="score" example="1">%d</xliff:g> din <xliff:g id="max_score" example="7">%d</xliff:g>! Apasa pe butonul Resetare pentru a incerca din nou.</string>
+    <string name="q1">1. Ce actor il intrepreteaza pe Capitanul Jack Sparrow?</string>
+    <string name="q2">2. Cine a pictat tavanul Capelei Sixtine?</string>
+    <string name="q3">3. Conform proverbului, toate drumurile duc la ... ?</string>
+    <string name="City">Oras</string>
+    <string name="q3_answer">Roma</string>
+    <string name="q4">4. Alege tari aflate in Asia:</string>
+    <string name="q4_a1">Liban</string>
+    <string name="q4_a2">China</string>
+    <string name="q4_a3">Ghana</string>
+    <string name="q4_a4">India</string>
+    <string name="q5">5. Care este obiectul aflat in cadere despre care se spune ca l-a inspirat pe Isaac Newton in privinta teoriei gravitatiei?</string>
+    <string name="q5_a1">Mar</string>
+    <string name="q5_a2">Ananas</string>
+    <string name="q5_a3">Portocala</string>
+    <string name="q5_a4">Pruna</string>
+    <string name="q6">6. Care este cea mai mare structura din lume?</string>
+    <string name="q6_a1">Marele Zid Chinezesc</string>
+    <string name="q6_a2">Portul din Tokyo</string>
+    <string name="q6_a3">Pentagonul</string>
+    <string name="q6_a4">Sears Tower</string>
+    <string name="q7">7. Ce produce compania Dell?</string>
+    <string name="q7_a1">Masini</string>
+    <string name="q7_a2">Bauturi</string>
+    <string name="q7_a3">Computere</string>
+    <string name="q7_a4">Biciclete</string>
+</resources>
