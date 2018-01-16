@@ -33,57 +33,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         submited=false;
         // initiate
-        submit=(Button) findViewById(R.id.submit);
-        submit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                checkScore(false);
-            }
-        });
-        reset=(Button) findViewById(R.id.reset);
-        reset.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                reset();
-            }
-        });
-        q1=(RadioGroup) findViewById(R.id.q1);
-        q1_a1=(RadioButton) findViewById(R.id.q1_a1);
-        q1_a2=(RadioButton) findViewById(R.id.q1_a2);
-        q1_a3=(RadioButton) findViewById(R.id.q1_a3);
-        q1_a4=(RadioButton) findViewById(R.id.q1_a4);
-
-        q2=(RadioGroup) findViewById(R.id.q2);
-        q2_a1=(RadioButton) findViewById(R.id.q2_a1);
-        q2_a2=(RadioButton) findViewById(R.id.q2_a2);
-        q2_a3=(RadioButton) findViewById(R.id.q2_a3);
-        q2_a4=(RadioButton) findViewById(R.id.q2_a4);
-
-        q3_a1=(EditText) findViewById(R.id.q3_a1);
-
-        q4_a1=(CheckBox) findViewById(R.id.q4_a1);
-        q4_a2=(CheckBox) findViewById(R.id.q4_a2);
-        q4_a3=(CheckBox) findViewById(R.id.q4_a3);
-        q4_a4=(CheckBox) findViewById(R.id.q4_a4);
-
-        q5=(RadioGroup) findViewById(R.id.q5);
-        q5_a1=(RadioButton) findViewById(R.id.q5_a1);
-        q5_a2=(RadioButton) findViewById(R.id.q5_a2);
-        q5_a3=(RadioButton) findViewById(R.id.q5_a3);
-        q5_a4=(RadioButton) findViewById(R.id.q5_a4);
-
-        q6=(RadioGroup) findViewById(R.id.q6);
-        q6_a1=(RadioButton) findViewById(R.id.q6_a1);
-        q6_a2=(RadioButton) findViewById(R.id.q6_a2);
-        q6_a3=(RadioButton) findViewById(R.id.q6_a3);
-        q6_a4=(RadioButton) findViewById(R.id.q6_a4);
-
-        q7=(RadioGroup) findViewById(R.id.q7);
-        q7_a1=(RadioButton) findViewById(R.id.q7_a1);
-        q7_a2=(RadioButton) findViewById(R.id.q7_a2);
-        q7_a3=(RadioButton) findViewById(R.id.q7_a3);
-        q7_a4=(RadioButton) findViewById(R.id.q7_a4);
+        intialize();
     }
+
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
@@ -200,4 +152,57 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+    private void intialize() {
+        submit=(Button) findViewById(R.id.submit);
+        submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                checkScore(false);
+            }
+        });
+        reset=(Button) findViewById(R.id.reset);
+        reset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                reset();
+            }
+        });
+        q1=(RadioGroup) findViewById(R.id.q1);
+        q1_a1=(RadioButton) findViewById(R.id.q1_a1);
+        q1_a2=(RadioButton) findViewById(R.id.q1_a2);
+        q1_a3=(RadioButton) findViewById(R.id.q1_a3);
+        q1_a4=(RadioButton) findViewById(R.id.q1_a4);
+
+        q2=(RadioGroup) findViewById(R.id.q2);
+        q2_a1=(RadioButton) findViewById(R.id.q2_a1);
+        q2_a2=(RadioButton) findViewById(R.id.q2_a2);
+        q2_a3=(RadioButton) findViewById(R.id.q2_a3);
+        q2_a4=(RadioButton) findViewById(R.id.q2_a4);
+
+        q3_a1=(EditText) findViewById(R.id.q3_a1);
+
+        q4_a1=(CheckBox) findViewById(R.id.q4_a1);
+        q4_a2=(CheckBox) findViewById(R.id.q4_a2);
+        q4_a3=(CheckBox) findViewById(R.id.q4_a3);
+        q4_a4=(CheckBox) findViewById(R.id.q4_a4);
+
+        q5=(RadioGroup) findViewById(R.id.q5);
+        q5_a1=(RadioButton) findViewById(R.id.q5_a1);
+        q5_a2=(RadioButton) findViewById(R.id.q5_a2);
+        q5_a3=(RadioButton) findViewById(R.id.q5_a3);
+        q5_a4=(RadioButton) findViewById(R.id.q5_a4);
+
+        q6=(RadioGroup) findViewById(R.id.q6);
+        q6_a1=(RadioButton) findViewById(R.id.q6_a1);
+        q6_a2=(RadioButton) findViewById(R.id.q6_a2);
+        q6_a3=(RadioButton) findViewById(R.id.q6_a3);
+        q6_a4=(RadioButton) findViewById(R.id.q6_a4);
+
+        q7=(RadioGroup) findViewById(R.id.q7);
+        q7_a1=(RadioButton) findViewById(R.id.q7_a1);
+        q7_a2=(RadioButton) findViewById(R.id.q7_a2);
+        q7_a3=(RadioButton) findViewById(R.id.q7_a3);
+        q7_a4=(RadioButton) findViewById(R.id.q7_a4);
+    }
+
 }
