@@ -4,45 +4,45 @@
     <string name="submit">Submit</string>
     <string name="reset">Reset</string>
     <string name="result">You scored <xliff:g id="score" example="1">%d</xliff:g> out of <xliff:g id="max_score" example="7">%d</xliff:g>! Tap RESET to try again.</string>
-    <string name="q1">1.Which actor plays Captain Jack Sparrow?</string>
-    <string name="q1_a1" translatable="false">Matt Damon</string>
-    <string name="q1_a2" translatable="false">Brad Pitt</string>
-    <string name="q1_a3" translatable="false">Johnny Depp</string>
-    <string name="q1_a4" translatable="false">Tom Cruise</string>
+    <string name="question_1_text">1.Which actor plays Captain Jack Sparrow?</string>
+    <string name="question_1_answer_1" translatable="false">Matt Damon</string>
+    <string name="question_1_answer_2" translatable="false">Brad Pitt</string>
+    <string name="question_1_answer_3" translatable="false">Johnny Depp</string>
+    <string name="question_1_answer_4" translatable="false">Tom Cruise</string>
 
-    <string name="q2">2.The ceiling of the Sistine Chapel was painted by?</string>
-    <string name="q2_a1" translatable="false">Michelangelo</string>
-    <string name="q2_a2" translatable="false">Leonardo da Vinci</string>
-    <string name="q2_a3" translatable="false">Titian</string>
-    <string name="q2_a4" translatable="false">Raphael</string>
+    <string name="question_2_text">2.The ceiling of the Sistine Chapel was painted by?</string>
+    <string name="question_2_answer_1" translatable="false">Michelangelo</string>
+    <string name="question_2_answer_2" translatable="false">Leonardo da Vinci</string>
+    <string name="question_2_answer_3" translatable="false">Titian</string>
+    <string name="question_2_answer_4" translatable="false">Raphael</string>
 
-    <string name="q3">3.According to the proverb, where do all roads lead to?</string>
-    <string name="q3_answer">Rome</string>
+    <string name="question_3_text">3.According to the proverb, where do all roads lead to?</string>
+    <string name="question_3_answer">Rome</string>
     <string name="City">City</string>
 
-    <string name="q4">4.Select the countries located in Asia:</string>
-    <string name="q4_a1">Lebanon</string>
-    <string name="q4_a2">China</string>
-    <string name="q4_a3">Ghana</string>
-    <string name="q4_a4">India</string>
+    <string name="question_4_text">4.Select the countries located in Asia:</string>
+    <string name="question_4_answer_1">Lebanon</string>
+    <string name="question_4_answer_2">China</string>
+    <string name="question_4_answer_3">Ghana</string>
+    <string name="qestion_4_answer_4">India</string>
 
-    <string name="q5">5.What falling object is said to have inspired Isaac Newton\'s theories about gravity?</string>
-    <string name="q5_a1">Apple</string>
-    <string name="q5_a2">Pineapple</string>
-    <string name="q5_a3">Orange</string>
-    <string name="q5_a4">Plum</string>
+    <string name="question_5_text">5.What falling object is said to have inspired Isaac Newton\'s theories about gravity?</string>
+    <string name="question_5_answer_1">Apple</string>
+    <string name="question_5_answer_2">Pineapple</string>
+    <string name="question_5_answer_3">Orange</string>
+    <string name="question_5_answer_4">Plum</string>
 
-    <string name="q6">6.What is the world\'s largest structure?</string>
-    <string name="q6_a1">Great Wall of China</string>
-    <string name="q6_a2">Tokyo Harbour</string>
-    <string name="q6_a3">The Pentagon</string>
-    <string name="q6_a4">Sears Tower</string>
+    <string name="question_6_text">6.What is the world\'s largest structure?</string>
+    <string name="question_6_answer_1">Great Wall of China</string>
+    <string name="question_6_answer_2">Tokyo Harbour</string>
+    <string name="question_6_answer_3">The Pentagon</string>
+    <string name="question_6_answer_4">Sears Tower</string>
 
-    <string name="q7">7.What does the Dell company make?</string>
-    <string name="q7_a1">Cars</string>
-    <string name="q7_a2">Drinks</string>
-    <string name="q7_a3">Computers</string>
-    <string name="q7_a4">Bikes</string>
+    <string name="question_7_text">7.What does the Dell company make?</string>
+    <string name="question_7_answer_1">Cars</string>
+    <string name="question_7_answer_2">Drinks</string>
+    <string name="question_7_answer_3">Computers</string>
+    <string name="question_7_answer_4">Bikes</string>
     <string name="todo">TODO</string>
 
 </resources>

@@ -49,35 +49,34 @@
                 <TextView
                     style="@style/question"
                     android:padding="@dimen/default_margin"
-                    android:text="@string/q1" />
+                    android:text="@string/question_1_text" />
 
                 <RadioGroup
-                    android:id="@+id/q1"
+                    android:id="@+id/question_1_radiogroup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/default_margin">
 
                     <RadioButton
-                        android:id="@+id/q1_a1"
+                        android:id="@+id/question_1_answer_1"
                         style="@style/answer"
-                        android:text="@string/q1_a1" />
+                        android:text="@string/question_1_answer_1" />
 
                     <RadioButton
-                        android:id="@+id/q1_a2"
+                        android:id="@+id/question_1_answer_2"
                         style="@style/answer"
-                        android:text="@string/q1_a2"
-
+                        android:text="@string/question_1_answer_2"
                         />
 
                     <RadioButton
-                        android:id="@+id/q1_a3"
+                        android:id="@+id/question_1_answer_3"
                         style="@style/answer"
-                        android:text="@string/q1_a3" />
+                        android:text="@string/question_1_answer_3" />
 
                     <RadioButton
-                        android:id="@+id/q1_a4"
+                        android:id="@+id/question_1_answer_4"
                         style="@style/answer"
-                        android:text="@string/q1_a4" />
+                        android:text="@string/question_1_answer_4" />
                 </RadioGroup>
             </LinearLayout>
         </android.support.v7.widget.CardView>
@@ -93,35 +92,35 @@
                 <TextView
                     style="@style/question"
                     android:padding="@dimen/default_margin"
-                    android:text="@string/q2" />
+                    android:text="@string/question_2_text" />
 
                 <RadioGroup
-                    android:id="@+id/q2"
+                    android:id="@+id/question_2_radiogroup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/default_margin">
 
                     <RadioButton
-                        android:id="@+id/q2_a1"
+                        android:id="@+id/question_2_answer_1"
                         style="@style/answer"
-                        android:text="@string/q2_a1" />
+                        android:text="@string/question_2_answer_1" />
 
                     <RadioButton
-                        android:id="@+id/q2_a2"
+                        android:id="@+id/question_2_answer_2"
                         style="@style/answer"
-                        android:text="@string/q2_a2"
+                        android:text="@string/question_2_answer_2"
 
                         />
 
                     <RadioButton
-                        android:id="@+id/q2_a3"
+                        android:id="@+id/question_2_answer_3"
                         style="@style/answer"
-                        android:text="@string/q2_a3" />
+                        android:text="@string/question_2_answer_3" />
 
                     <RadioButton
-                        android:id="@+id/q2_a4"
+                        android:id="@+id/question_2_answer_4"
                         style="@style/answer"
-                        android:text="@string/q2_a4" />
+                        android:text="@string/question_2_answer_4" />
                 </RadioGroup>
             </LinearLayout>
         </android.support.v7.widget.CardView>
@@ -137,10 +136,10 @@
                 <TextView
                     style="@style/question"
                     android:padding="@dimen/default_margin"
-                    android:text="@string/q3" />
+                    android:text="@string/question_3_text" />
 
                 <EditText
-                    android:id="@+id/q3_a1"
+                    android:id="@+id/question_3_answer_1"
                     style="@style/answer"
                     android:layout_marginBottom="@dimen/one_element_top_down_margin"
                     android:layout_marginTop="@dimen/one_element_top_down_margin"
@@ -160,7 +159,7 @@
                 <TextView
                     style="@style/question"
                     android:padding="@dimen/default_margin"
-                    android:text="@string/q4" />
+                    android:text="@string/question_4_text" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -169,26 +168,24 @@
                     android:padding="@dimen/default_margin">
 
                     <CheckBox
-                        android:id="@+id/q4_a1"
+                        android:id="@+id/question_4_answer_1"
                         style="@style/answer"
-                        android:text="@string/q4_a1" />
+                        android:text="@string/question_4_answer_1" />
 
                     <CheckBox
-                        android:id="@+id/q4_a2"
+                        android:id="@+id/question_4_answer_2"
                         style="@style/answer"
-                        android:text="@string/q4_a2"
-
-                        />
+                        android:text="@string/question_4_answer_2" />
 
                     <CheckBox
-                        android:id="@+id/q4_a3"
+                        android:id="@+id/question_4_answer_3"
                         style="@style/answer"
-                        android:text="@string/q4_a3" />
+                        android:text="@string/question_4_answer_3" />
 
                     <CheckBox
-                        android:id="@+id/q4_a4"
+                        android:id="@+id/question_4_answer_4"
                         style="@style/answer"
-                        android:text="@string/q4_a4" />
+                        android:text="@string/qestion_4_answer_4" />
                 </LinearLayout>
             </LinearLayout>
         </android.support.v7.widget.CardView>
@@ -204,35 +201,35 @@
                 <TextView
                     style="@style/question"
                     android:padding="@dimen/default_margin"
-                    android:text="@string/q5" />
+                    android:text="@string/question_5_text" />
 
                 <RadioGroup
-                    android:id="@+id/q5"
+                    android:id="@+id/question_5_radiogroup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/default_margin">
 
                     <RadioButton
-                        android:id="@+id/q5_a1"
+                        android:id="@+id/question_5_answer_1"
                         style="@style/answer"
-                        android:text="@string/q5_a1" />
+                        android:text="@string/question_5_answer_1" />
 
                     <RadioButton
-                        android:id="@+id/q5_a2"
+                        android:id="@+id/question_5_answer_2"
                         style="@style/answer"
-                        android:text="@string/q5_a2"
+                        android:text="@string/question_5_answer_2"
 
                         />
 
                     <RadioButton
-                        android:id="@+id/q5_a3"
+                        android:id="@+id/question_5_answer_3"
                         style="@style/answer"
-                        android:text="@string/q5_a3" />
+                        android:text="@string/question_5_answer_3" />
 
                     <RadioButton
-                        android:id="@+id/q5_a4"
+                        android:id="@+id/question_5_answer_4"
                         style="@style/answer"
-                        android:text="@string/q5_a4" />
+                        android:text="@string/question_5_answer_4" />
                 </RadioGroup>
             </LinearLayout>
         </android.support.v7.widget.CardView>
@@ -247,35 +244,34 @@
                 <TextView
                     style="@style/question"
                     android:padding="@dimen/default_margin"
-                    android:text="@string/q6" />
+                    android:text="@string/question_6_text" />
 
                 <RadioGroup
-                    android:id="@+id/q6"
+                    android:id="@+id/question_6_radiogroup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/default_margin">
 
                     <RadioButton
-                        android:id="@+id/q6_a1"
+                        android:id="@+id/question_6_answer_1"
                         style="@style/answer"
-                        android:text="@string/q6_a1" />
+                        android:text="@string/question_6_answer_1" />
 
                     <RadioButton
-                        android:id="@+id/q6_a2"
+                        android:id="@+id/question_6_answer_2"
                         style="@style/answer"
-                        android:text="@string/q6_a2"
-
+                        android:text="@string/question_6_answer_2"
                         />
 
                     <RadioButton
-                        android:id="@+id/q6_a3"
+                        android:id="@+id/question_6_answer_3"
                         style="@style/answer"
-                        android:text="@string/q6_a3" />
+                        android:text="@string/question_6_answer_3" />
 
                     <RadioButton
-                        android:id="@+id/q6_a4"
+                        android:id="@+id/question_6_answer_4"
                         style="@style/answer"
-                        android:text="@string/q6_a4" />
+                        android:text="@string/question_6_answer_4" />
                 </RadioGroup>
             </LinearLayout>
         </android.support.v7.widget.CardView>
@@ -290,39 +286,37 @@
                 <TextView
                     style="@style/question"
                     android:padding="@dimen/default_margin"
-                    android:text="@string/q7" />
+                    android:text="@string/question_7_text" />
 
                 <RadioGroup
-                    android:id="@+id/q7"
+                    android:id="@+id/question_7_radiogroup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/default_margin">
 
                     <RadioButton
-                        android:id="@+id/q7_a1"
+                        android:id="@+id/question_7_answer_1"
                         style="@style/answer"
-                        android:text="@string/q7_a1" />
+                        android:text="@string/question_7_answer_1" />
 
                     <RadioButton
-                        android:id="@+id/q7_a2"
+                        android:id="@+id/question_7_answer_2"
                         style="@style/answer"
-                        android:text="@string/q7_a2"
-
+                        android:text="@string/question_7_answer_2"
                         />
 
                     <RadioButton
-                        android:id="@+id/q7_a3"
+                        android:id="@+id/question_7_answer_3"
                         style="@style/answer"
-                        android:text="@string/q7_a3" />
+                        android:text="@string/question_7_answer_3" />
 
                     <RadioButton
-                        android:id="@+id/q7_a4"
+                        android:id="@+id/question_7_answer_4"
                         style="@style/answer"
-                        android:text="@string/q7_a4" />
+                        android:text="@string/question_7_answer_4" />
                 </RadioGroup>
             </LinearLayout>
         </android.support.v7.widget.CardView>
-
 
         <Button
             android:id="@+id/submit"
@@ -334,7 +328,6 @@
             android:background="@color/button_background_color"
             android:text="@string/submit"
             android:textColor="@color/button_text_color"
-
             />
 
         <Button
@@ -345,7 +338,6 @@
             android:background="@color/button_background_color"
             android:text="@string/reset"
             android:textColor="@color/button_text_color" />
-
 
     </LinearLayout>
 </ScrollView>

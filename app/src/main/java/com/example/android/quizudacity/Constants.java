@@ -6,5 +6,4 @@ package com.example.android.quizudacity;
 
 public class Constants {
     public static final String submited="submited";
-
 }
