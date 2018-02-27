@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
         intialize();
     }
 
-
     // save if quiz was submited or not
     @Override
     protected void onSaveInstanceState(Bundle outState) {
@@ -83,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         // question 5
         if(Quest5_Ans1.isChecked()) {
             score++;
-        }
+        } else { };
         for(int i = 0; i< Question_5_RG.getChildCount(); i++)
             Question_5_RG.getChildAt(i).setEnabled(false);
 
@@ -105,11 +104,10 @@ public class MainActivity extends AppCompatActivity {
         if (!flag) {
             String message = getResources().getString(R.string.result, score, numberOfQuestions);
             Toast.makeText(this, message, Toast.LENGTH_LONG).show();
-
         }
     }
 
-    public void resetQuiz() {
+    private void resetQuiz() {
         submited=false;
         score=0;
         // unckeck and enable all quiz views
@@ -148,55 +146,55 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void intialize() {
-        SubmitButton =(Button) findViewById(R.id.submit);
+        SubmitButton =(Button) findViewById(R.id.bt_submit);
         SubmitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 checkScore(false);
             }
         });
-        ResetButton =(Button) findViewById(R.id.reset);
+        ResetButton =(Button) findViewById(R.id.bt_reset);
         ResetButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 resetQuiz();
             }
         });
-        Question_1_RG =(RadioGroup) findViewById(R.id.question_1_radiogroup);
-        Quest1_Ans1 =(RadioButton) findViewById(R.id.question_1_answer_1);
-        Quest1_Ans2 =(RadioButton) findViewById(R.id.question_1_answer_2);
-        Quest1_Ans3 =(RadioButton) findViewById(R.id.question_1_answer_3);
-        Quest1_Ans4 =(RadioButton) findViewById(R.id.question_1_answer_4);
+        Question_1_RG =(RadioGroup) findViewById(R.id.rg_question_1);
+        Quest1_Ans1 =(RadioButton) findViewById(R.id.rb_question_1_answer_1_matt_damon);
+        Quest1_Ans2 =(RadioButton) findViewById(R.id.rb_question_1_answer_2_brad_pitt);
+        Quest1_Ans3 =(RadioButton) findViewById(R.id.rb_question_1_answer_3_johnny_depp);
+        Quest1_Ans4 =(RadioButton) findViewById(R.id.rb_question_1_answer_4_tom_cruise);
 
-        Question_2_RG =(RadioGroup) findViewById(R.id.question_2_radiogroup);
-        Quest2_Ans1 =(RadioButton) findViewById(R.id.question_2_answer_1);
-        Quest2_Ans2 =(RadioButton) findViewById(R.id.question_2_answer_2);
-        Quest2_Ans3 =(RadioButton) findViewById(R.id.question_2_answer_3);
-        Quest2_Ans4 =(RadioButton) findViewById(R.id.question_2_answer_4);
+        Question_2_RG =(RadioGroup) findViewById(R.id.rg_question_2);
+        Quest2_Ans1 =(RadioButton) findViewById(R.id.rb_question_2_answer_1_michelangelo);
+        Quest2_Ans2 =(RadioButton) findViewById(R.id.rb_question_2_answer_2_leonardo);
+        Quest2_Ans3 =(RadioButton) findViewById(R.id.rb_question_2_answer_3_titian);
+        Quest2_Ans4 =(RadioButton) findViewById(R.id.rb_question_2_answer_4_raphael);
 
-        Quest3_Ans1 =(EditText) findViewById(R.id.question_3_answer_1);
+        Quest3_Ans1 =(EditText) findViewById(R.id.et_question_3_answer_1_rome);
 
-        Quest4_Ans1 =(CheckBox) findViewById(R.id.question_4_answer_1);
-        Quest4_Ans2 =(CheckBox) findViewById(R.id.question_4_answer_2);
-        Quest4_Ans3 =(CheckBox) findViewById(R.id.question_4_answer_3);
-        Quest4_Ans4 =(CheckBox) findViewById(R.id.question_4_answer_4);
+        Quest4_Ans1 =(CheckBox) findViewById(R.id.cb_question_4_answer_1_lebanon);
+        Quest4_Ans2 =(CheckBox) findViewById(R.id.cb_question_4_answer_2_china);
+        Quest4_Ans3 =(CheckBox) findViewById(R.id.cb_question_4_answer_3_ghana);
+        Quest4_Ans4 =(CheckBox) findViewById(R.id.cb_question_4_answer_4_india);
 
-        Question_5_RG =(RadioGroup) findViewById(R.id.question_5_radiogroup);
-        Quest5_Ans1 =(RadioButton) findViewById(R.id.question_5_answer_1);
-        Quest5_Ans2 =(RadioButton) findViewById(R.id.question_5_answer_2);
-        Quest5_Ans3 =(RadioButton) findViewById(R.id.question_5_answer_3);
-        Quest5_Ans4 =(RadioButton) findViewById(R.id.question_5_answer_4);
+        Question_5_RG =(RadioGroup) findViewById(R.id.rg_question_5);
+        Quest5_Ans1 =(RadioButton) findViewById(R.id.rb_question_5_answer_1_apple);
+        Quest5_Ans2 =(RadioButton) findViewById(R.id.rb_question_5_answer_2_pinneaple);
+        Quest5_Ans3 =(RadioButton) findViewById(R.id.rb_question_5_answer_3_orange);
+        Quest5_Ans4 =(RadioButton) findViewById(R.id.rb_question_5_answer_4_plum);
 
-        Question_6_RG =(RadioGroup) findViewById(R.id.question_6_radiogroup);
-        Quest6_Ans1 =(RadioButton) findViewById(R.id.question_6_answer_1);
-        Quest6_Ans2 =(RadioButton) findViewById(R.id.question_6_answer_2);
-        Quest6_Ans3 =(RadioButton) findViewById(R.id.question_6_answer_3);
-        Quest6_Ans4 =(RadioButton) findViewById(R.id.question_6_answer_4);
+        Question_6_RG =(RadioGroup) findViewById(R.id.rg_question_6);
+        Quest6_Ans1 =(RadioButton) findViewById(R.id.rb_question_6_answer_1_wall_of_china);
+        Quest6_Ans2 =(RadioButton) findViewById(R.id.rb_question_6_answer_2_tokyo);
+        Quest6_Ans3 =(RadioButton) findViewById(R.id.rb_question_6_answer_3_pentagon);
+        Quest6_Ans4 =(RadioButton) findViewById(R.id.rb_question_6_answer_4_sears);
 
-        Question_7_RG =(RadioGroup) findViewById(R.id.question_7_radiogroup);
-        Quest7_Ans1 =(RadioButton) findViewById(R.id.question_7_answer_1);
-        Quest7_Ans2 =(RadioButton) findViewById(R.id.question_7_answer_2);
-        Quest7_Ans3 =(RadioButton) findViewById(R.id.question_7_answer_3);
-        Quest7_Ans4 =(RadioButton) findViewById(R.id.question_7_answer_4);
+        Question_7_RG =(RadioGroup) findViewById(R.id.rg_question_7);
+        Quest7_Ans1 =(RadioButton) findViewById(R.id.rb_question_7_answer_1_cars);
+        Quest7_Ans2 =(RadioButton) findViewById(R.id.rb_question_7_answer_2_drinks);
+        Quest7_Ans3 =(RadioButton) findViewById(R.id.rb_question_7_answer_3_computers);
+        Quest7_Ans4 =(RadioButton) findViewById(R.id.rb_question_7_answer_4_bikes);
     }
 }

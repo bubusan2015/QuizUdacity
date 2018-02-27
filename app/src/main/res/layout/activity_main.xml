@@ -52,29 +52,29 @@
                     android:text="@string/question_1_text" />
 
                 <RadioGroup
-                    android:id="@+id/question_1_radiogroup"
+                    android:id="@+id/rg_question_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/default_margin">
 
                     <RadioButton
-                        android:id="@+id/question_1_answer_1"
+                        android:id="@+id/rb_question_1_answer_1_matt_damon"
                         style="@style/answer"
                         android:text="@string/question_1_answer_1" />
 
                     <RadioButton
-                        android:id="@+id/question_1_answer_2"
+                        android:id="@+id/rb_question_1_answer_2_brad_pitt"
                         style="@style/answer"
                         android:text="@string/question_1_answer_2"
                         />
 
                     <RadioButton
-                        android:id="@+id/question_1_answer_3"
+                        android:id="@+id/rb_question_1_answer_3_johnny_depp"
                         style="@style/answer"
                         android:text="@string/question_1_answer_3" />
 
                     <RadioButton
-                        android:id="@+id/question_1_answer_4"
+                        android:id="@+id/rb_question_1_answer_4_tom_cruise"
                         style="@style/answer"
                         android:text="@string/question_1_answer_4" />
                 </RadioGroup>
@@ -95,30 +95,30 @@
                     android:text="@string/question_2_text" />
 
                 <RadioGroup
-                    android:id="@+id/question_2_radiogroup"
+                    android:id="@+id/rg_question_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/default_margin">
 
                     <RadioButton
-                        android:id="@+id/question_2_answer_1"
+                        android:id="@+id/rb_question_2_answer_1_michelangelo"
                         style="@style/answer"
                         android:text="@string/question_2_answer_1" />
 
                     <RadioButton
-                        android:id="@+id/question_2_answer_2"
+                        android:id="@+id/rb_question_2_answer_2_leonardo"
                         style="@style/answer"
                         android:text="@string/question_2_answer_2"
 
                         />
 
                     <RadioButton
-                        android:id="@+id/question_2_answer_3"
+                        android:id="@+id/rb_question_2_answer_3_titian"
                         style="@style/answer"
                         android:text="@string/question_2_answer_3" />
 
                     <RadioButton
-                        android:id="@+id/question_2_answer_4"
+                        android:id="@+id/rb_question_2_answer_4_raphael"
                         style="@style/answer"
                         android:text="@string/question_2_answer_4" />
                 </RadioGroup>
@@ -139,7 +139,7 @@
                     android:text="@string/question_3_text" />
 
                 <EditText
-                    android:id="@+id/question_3_answer_1"
+                    android:id="@+id/et_question_3_answer_1_rome"
                     style="@style/answer"
                     android:layout_marginBottom="@dimen/one_element_top_down_margin"
                     android:layout_marginTop="@dimen/one_element_top_down_margin"
@@ -168,22 +168,22 @@
                     android:padding="@dimen/default_margin">
 
                     <CheckBox
-                        android:id="@+id/question_4_answer_1"
+                        android:id="@+id/cb_question_4_answer_1_lebanon"
                         style="@style/answer"
                         android:text="@string/question_4_answer_1" />
 
                     <CheckBox
-                        android:id="@+id/question_4_answer_2"
+                        android:id="@+id/cb_question_4_answer_2_china"
                         style="@style/answer"
                         android:text="@string/question_4_answer_2" />
 
                     <CheckBox
-                        android:id="@+id/question_4_answer_3"
+                        android:id="@+id/cb_question_4_answer_3_ghana"
                         style="@style/answer"
                         android:text="@string/question_4_answer_3" />
 
                     <CheckBox
-                        android:id="@+id/question_4_answer_4"
+                        android:id="@+id/cb_question_4_answer_4_india"
                         style="@style/answer"
                         android:text="@string/qestion_4_answer_4" />
                 </LinearLayout>
@@ -204,30 +204,30 @@
                     android:text="@string/question_5_text" />
 
                 <RadioGroup
-                    android:id="@+id/question_5_radiogroup"
+                    android:id="@+id/rg_question_5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/default_margin">
 
                     <RadioButton
-                        android:id="@+id/question_5_answer_1"
+                        android:id="@+id/rb_question_5_answer_1_apple"
                         style="@style/answer"
                         android:text="@string/question_5_answer_1" />
 
                     <RadioButton
-                        android:id="@+id/question_5_answer_2"
+                        android:id="@+id/rb_question_5_answer_2_pinneaple"
                         style="@style/answer"
                         android:text="@string/question_5_answer_2"
 
                         />
 
                     <RadioButton
-                        android:id="@+id/question_5_answer_3"
+                        android:id="@+id/rb_question_5_answer_3_orange"
                         style="@style/answer"
                         android:text="@string/question_5_answer_3" />
 
                     <RadioButton
-                        android:id="@+id/question_5_answer_4"
+                        android:id="@+id/rb_question_5_answer_4_plum"
                         style="@style/answer"
                         android:text="@string/question_5_answer_4" />
                 </RadioGroup>
@@ -247,29 +247,29 @@
                     android:text="@string/question_6_text" />
 
                 <RadioGroup
-                    android:id="@+id/question_6_radiogroup"
+                    android:id="@+id/rg_question_6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/default_margin">
 
                     <RadioButton
-                        android:id="@+id/question_6_answer_1"
+                        android:id="@+id/rb_question_6_answer_1_wall_of_china"
                         style="@style/answer"
                         android:text="@string/question_6_answer_1" />
 
                     <RadioButton
-                        android:id="@+id/question_6_answer_2"
+                        android:id="@+id/rb_question_6_answer_2_tokyo"
                         style="@style/answer"
                         android:text="@string/question_6_answer_2"
                         />
 
                     <RadioButton
-                        android:id="@+id/question_6_answer_3"
+                        android:id="@+id/rb_question_6_answer_3_pentagon"
                         style="@style/answer"
                         android:text="@string/question_6_answer_3" />
 
                     <RadioButton
-                        android:id="@+id/question_6_answer_4"
+                        android:id="@+id/rb_question_6_answer_4_sears"
                         style="@style/answer"
                         android:text="@string/question_6_answer_4" />
                 </RadioGroup>
@@ -289,29 +289,29 @@
                     android:text="@string/question_7_text" />
 
                 <RadioGroup
-                    android:id="@+id/question_7_radiogroup"
+                    android:id="@+id/rg_question_7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="@dimen/default_margin">
 
                     <RadioButton
-                        android:id="@+id/question_7_answer_1"
+                        android:id="@+id/rb_question_7_answer_1_cars"
                         style="@style/answer"
                         android:text="@string/question_7_answer_1" />
 
                     <RadioButton
-                        android:id="@+id/question_7_answer_2"
+                        android:id="@+id/rb_question_7_answer_2_drinks"
                         style="@style/answer"
                         android:text="@string/question_7_answer_2"
                         />
 
                     <RadioButton
-                        android:id="@+id/question_7_answer_3"
+                        android:id="@+id/rb_question_7_answer_3_computers"
                         style="@style/answer"
                         android:text="@string/question_7_answer_3" />
 
                     <RadioButton
-                        android:id="@+id/question_7_answer_4"
+                        android:id="@+id/rb_question_7_answer_4_bikes"
                         style="@style/answer"
                         android:text="@string/question_7_answer_4" />
                 </RadioGroup>
@@ -319,7 +319,7 @@
         </android.support.v7.widget.CardView>
 
         <Button
-            android:id="@+id/submit"
+            android:id="@+id/bt_submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/default_margin"
@@ -331,7 +331,7 @@
             />
 
         <Button
-            android:id="@+id/reset"
+            android:id="@+id/bt_reset"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/default_margin"
